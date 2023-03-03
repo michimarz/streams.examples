@@ -72,8 +72,9 @@
                     <configuration>
                         <source>1.8</source>
                         <target>1.8</target>
-                        <compilerId>jdt</compilerId>
+                        <!--<compilerId>jdt</compilerId>-->
                     </configuration>
+                    <!--
                     <dependencies>
                         <dependency>
                             <groupId>org.eclipse.tycho</groupId>
@@ -81,6 +82,7 @@
                             <version>0.21.0</version>
                         </dependency>
                     </dependencies>
+                    -->
                 </plugin>
                 <plugin>
                     <groupId>org.eclipse.m2e</groupId>
